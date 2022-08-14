@@ -1,0 +1,33 @@
+body{
+    margin: 200px
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+
+.first{
+    background-color: aqua;
+}
+
+.second{
+    background-color: pink;
+}
+
+.third{
+    background-color: aqua;
+
+}
+
+.fourth{
+    background-color: pink;
+
+}
+
+p{
+    margin: 0px;
+}
